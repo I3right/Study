@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mobile {
+    display: none;
+}
+
+/* -------------------------     header      ----------------------- */
+header .content {
+    height: 86px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .desktop ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header .desktop li img {
+    margin-left: 0.5rem;
+    width: 1rem;
+}
+
+/* -------------------------     banner      ----------------------- */
+
+.banner {
+    width: 100%;
+    margin-bottom: 64px;
+    background-image: url('./resources/images/banner-landingpage.jpg');
+}
+
+#sign-up-cta {
+    padding: 170px 0 170px 100px;
+    width: 100%;
+    /* padding: 32px 80px 56px; */
+    /* background-color: #9DC20A; */
+}
+
+#sign-up-cta .content {}
