@@ -1,0 +1,1 @@
+https://www.codecademy.com/paths/learn-how-to-build-websites/tracks/responsive-design-and-accessibility/modules/css-documentation-and-debugging/informationals/f1-2-c1p1-fotomatic
