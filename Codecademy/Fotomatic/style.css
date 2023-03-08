@@ -8,6 +8,16 @@
     display: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Roboto+Mono&family=Roboto:wght@300;400;500;700&family=Rubik&display=swap');
+
+/* 
+font-family: 'Damion',cursive;
+font-family: 'Roboto',sans-serif;
+font-family: 'Roboto Mono',monospace;
+font-family: 'Rubik',sans-serif;
+*/
+
+
 /* -------------------------     header      ----------------------- */
 header .content {
     height: 86px;
@@ -17,10 +27,15 @@ header .content {
     align-items: center;
 }
 
+.content>a {
+    font-family: 'Roboto Mono', monospace;
+}
+
 header .desktop ul {
     display: flex;
     align-items: center;
     gap: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 header .desktop li img {
@@ -32,15 +47,56 @@ header .desktop li img {
 
 .banner {
     width: 100%;
-    margin-bottom: 64px;
+    height: 700px;
     background-image: url('./resources/images/banner-landingpage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: center;
+    color: white;
+    line-height: 1.4;
 }
 
 #sign-up-cta {
-    padding: 170px 0 170px 100px;
-    width: 100%;
-    /* padding: 32px 80px 56px; */
-    /* background-color: #9DC20A; */
+    position: relative;
+    /* relative with parents : .banner*/
+    top: 170px;
+    left: 100px;
+    background-color: #9dc20a;
+    padding: 32px 80px 56px;
+
 }
 
-#sign-up-cta .content {}
+#sign-up-cta .content {
+    width: 410px;
+}
+
+h2.cursive {
+    font-family: 'Damion', cursive;
+    font-size: 36px;
+}
+
+h1.striking {
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    padding-bottom: 12px;
+}
+
+.email {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.email strong {
+    font-weight: bold;
+}
+
+.email .button {
+    background-color: #4a4a4a;
+    width: 408px;
+    border-radius: 4px;
+    padding: 22px 0;
+    margin-top: 26px;
+}
